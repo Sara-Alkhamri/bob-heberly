@@ -32,7 +32,7 @@ export const storeProducts = [
   {
     id: 4,
     title: "Color",
-    img: "img/product-4",
+    img: "img/product-4.jpg",
     price: "600",
     info: "Color",
     inCart: false,
@@ -42,7 +42,7 @@ export const storeProducts = [
   {
     id: 5,
     title: "Chair",
-    img: "img/product-5",
+    img: "img/product-5.jpg",
     price: "500",
     info: "Vintage Chair",
     inCart: false,
@@ -52,7 +52,7 @@ export const storeProducts = [
   {
     id: 6,
     title: "Red Banana",
-    img: "img/product-6",
+    img: "img/product-6.jpg",
     price: "1100",
     info: "Red Banana",
     inCart: false,
@@ -62,7 +62,7 @@ export const storeProducts = [
   {
     id: 7,
     title: "French Door",
-    img: "img/product-7",
+    img: "img/product-7.jpg",
     price: "2200",
     info: "Home",
     inCart: false,
@@ -72,7 +72,7 @@ export const storeProducts = [
   {
     id: 8,
     title: "Bobcat",
-    img: "img/product-8",
+    img: "img/product-8.jpg",
     price: "1200",
     info: "Bobcat on yellow",
     inCart: false,
@@ -82,7 +82,7 @@ export const storeProducts = [
   {
     id: 9,
     title: "Norcineria",
-    img: "img/product-9",
+    img: "img/product-9.jpg",
     price: "3000",
     info: "A day at Norcineria",
     inCart: false,
@@ -92,7 +92,7 @@ export const storeProducts = [
   {
     id: 10,
     title: "French Doors",
-    img: "img/product-10",
+    img: "img/product-10.jpg",
     price: "2200",
     info: "French Doors",
     inCart: false,
@@ -102,7 +102,7 @@ export const storeProducts = [
   {
     id: 11,
     title: "Backyard",
-    img: "img/product-11",
+    img: "img/product-11.jpg",
     price: "1300",
     info: "Sundays in the backyard",
     inCart: false,
@@ -112,7 +112,7 @@ export const storeProducts = [
   {
     id: 12,
     title: "Patio Bedroom",
-    img: "img/product-12",
+    img: "img/product-12.jpg",
     price: "1500",
     info: "Patio Bedroom",
     inCart: false,
@@ -122,7 +122,7 @@ export const storeProducts = [
   {
     id: 13,
     title: "Pool",
-    img: "img/product-13",
+    img: "img/product-13.jpg",
     price: "1100",
     info: "Pool",
     inCart: false,
@@ -132,7 +132,7 @@ export const storeProducts = [
   {
     id: 14,
     title: "Red Chair",
-    img: "img/product-14",
+    img: "img/product-14.jpg",
     price: "900",
     info: "Red Chair",
     inCart: false,
@@ -142,7 +142,7 @@ export const storeProducts = [
   {
     id: 15,
     title: "Yard Chair",
-    img: "img/product-15",
+    img: "img/product-15.jpg",
     price: "1000",
     info: "Yard Chair",
     inCart: false,
