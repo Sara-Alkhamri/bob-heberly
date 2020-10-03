@@ -49,10 +49,9 @@ export default class Details extends Component {
                       disabled={inCart ? true : false}
                       onClick={() => {
                         value.addToCart(id);
-                        value.openModal(id);
                       }}
                     >
-                      {inCart ? "inCart" : "Add to Cart"}
+                      {inCart ? "Added to Cart" : "Add to Cart"}
                     </ButtonContainer>
                   </div>
                 </div>
