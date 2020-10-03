@@ -24,6 +24,7 @@ export default class Product extends Component {
                   disabled={inCart ? true : false}
                   onClick={() => {
                     value.addToCart(id);
+                    value.openModal(id);
                   }}
                 >
                   {inCart ? (
@@ -53,7 +54,6 @@ Product.propTypes = {
     id: PropTypes.number,
     img: PropTypes.string,
     title: PropTypes.string,
-    price: PropTypes.number,
     inCart: PropTypes.bool
   }).isRequired
 };

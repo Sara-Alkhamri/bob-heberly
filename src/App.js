@@ -5,6 +5,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import ProductList from "./components/ProductList";
 import Details from "./components/Details";
+import Modal from "./components/Modal";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/art" component={ProductList} />
         <Route exact path="/details" component={Details} />
       </Switch>
+      <Modal />
     </React.Fragment>
   );
 }
