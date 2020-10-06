@@ -8,6 +8,7 @@ import Details from "./components/Details";
 import Modal from "./components/Modal";
 import Cart from "./components/Cart/Cart";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route exact path="/cart" component={Cart} />
       </Switch>
       <Modal />
+      <Footer />
     </React.Fragment>
   );
 }
