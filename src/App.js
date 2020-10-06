@@ -7,10 +7,12 @@ import ProductList from "./components/ProductList";
 import Details from "./components/Details";
 import Modal from "./components/Modal";
 import Cart from "./components/Cart/Cart";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <React.Fragment>
+      {/* <NavBar /> */}
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/art" component={ProductList} />
