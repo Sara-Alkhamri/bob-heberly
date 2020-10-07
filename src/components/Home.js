@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import bob from "../bob-painting.png";
 import bobLogo from "../bob.png";
-import { ButtonContainer } from "./Button";
+// import { ButtonContainer } from "./Button";
 import styled from "styled-components";
 
 export default function Home() {
@@ -15,11 +15,9 @@ export default function Home() {
         <div className="">
           <h3 className="">Pastel and Oil</h3>
           <p>is simply dummy text of the printing and typesetting industry.</p>
-          <ButtonContainer>
-            <Link to="/art" className="nav-link">
-              Art Collection
-            </Link>
-          </ButtonContainer>
+          <Link to="/art" className="art-link">
+            View Art Collection
+          </Link>
         </div>
         <img src={bob} alt="bob painting" />
       </div>
@@ -32,7 +30,7 @@ const HomeNav = styled.nav`
     color: var(--etonBlue);
   }
 
-  .nav-link {
+  .art-link {
     color: var(--beige) !important;
     font-size: 1.5rem;
     text-transform: capitalize;
