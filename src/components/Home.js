@@ -7,7 +7,7 @@ import styled from "styled-components";
 
 export default function Home() {
   return (
-    <HomeNav classname="py-5">
+    <HomeNav classname="container-fluid">
       <div className="navbar navbar-expand-sm px-sm-5">
         <img src={bobLogo} alt="store" />
       </div>
