@@ -4,33 +4,37 @@ import styled from "styled-components";
 
 export default function Footer() {
   return (
-    <FooterWrapper>
-      <div className="content">
-        <Link to="/" className="nav-link">
-          Home
-        </Link>
-        <Link to="/art" className="nav-link">
-          Art
-        </Link>
-        <Link to="/cart" className="nav-link">
-          Cart
-        </Link>
-        <div className="text">
-          <small>Created by Sara Alkhamri 2020</small>
-        </div>
+    <FooterWrapper className="footer">
+      <div className="footer-nav">
+        <Link to="/">Home</Link>
+        <Link to="/art">Art</Link>
+        <Link to="/cart">Cart</Link>
+      </div>
+      <div className="text">
+        <small>
+          Made by <a href="https://saraalkhamri.com/"> Sara Alkhamri </a>
+          copyright ©2020, All Rights Reserved
+        </small>
       </div>
     </FooterWrapper>
   );
 }
 
 const FooterWrapper = styled.nav`
-  margin: 2rem;
-  padding: 2rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 6rem;
   text-align: center;
-  .content {
+  .footer-nav {
     color: var(--etonBlue);
   }
-  .content a {
+  .footer-nav a {
     color: #d5bf86;
+    margin: 1rem;
+    padding-bottom: 1rem;
+  }
+  .text {
+    padding-top: 2rem;
   }
 `;
