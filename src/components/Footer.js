@@ -30,13 +30,13 @@ const FooterWrapper = styled.nav`
     /* position: absolute; */
     bottom: 0;
     width: 100%;
-    /* height: 6rem; */
+    /* height: 1rem; */
     text-align: center;
   }
   .footer-nav a {
     color: #d5bf86;
     margin: 1rem;
-    padding-bottom: 1rem;
+    /* padding-bottom: 1rem; */
   }
   .text {
     padding-top: 2rem;

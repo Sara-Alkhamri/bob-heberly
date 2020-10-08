@@ -7,11 +7,11 @@ import styled from "styled-components";
 
 export default function Home() {
   return (
-    <HomeNav classname="container-fluid">
+    <HomeNav classname="container">
       <div className="navbar navbar-expand-sm px-sm-5">
         <img src={bobLogo} alt="store" />
       </div>
-      <div className="content d-flex justify-content-around align-items-center">
+      <div className="content  d-flex justify-content-around align-items-center">
         <div className="">
           <h3 className="">Pastel and Oil</h3>
           <p>is simply dummy text of the printing and typesetting industry.</p>
@@ -28,9 +28,6 @@ export default function Home() {
 const HomeNav = styled.nav`
   margin: 2rem;
   padding: 3rem;
-  .content {
-    color: var(--etonBlue);
-  }
 
   .art-link {
     color: var(--beige) !important;
