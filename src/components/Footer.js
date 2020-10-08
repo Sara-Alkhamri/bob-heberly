@@ -28,6 +28,8 @@ const FooterWrapper = styled.nav`
   .footer-nav {
     color: var(--etonBlue);
     /* position: absolute; */
+    padding-top: 2rem;
+
     bottom: 0;
     width: 100%;
     /* height: 1rem; */

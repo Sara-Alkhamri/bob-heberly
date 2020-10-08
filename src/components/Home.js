@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import bob from "../bob-painting.png";
 import bobLogo from "../bob.png";
-// import { ButtonContainer } from "./Button";
 import styled from "styled-components";
 
 export default function Home() {
@@ -26,9 +25,6 @@ export default function Home() {
 }
 
 const HomeNav = styled.nav`
-  margin: 2rem;
-  padding: 3rem;
-
   .art-link {
     color: var(--beige) !important;
     font-size: 1.5rem;
