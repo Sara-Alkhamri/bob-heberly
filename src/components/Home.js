@@ -10,15 +10,17 @@ export default function Home() {
       <div className="navbar navbar-expand-sm px-sm-5">
         <img src={bobLogo} alt="store" />
       </div>
-      <div className="content  d-flex justify-content-around align-items-center">
-        <div className="">
-          <h3 className="">Pastel and Oil</h3>
-          <p>is simply dummy text of the printing and typesetting industry.</p>
-          <Link to="/art" className="art-link">
+      <div className="content d-flex justify-content-around align-items-center flex-wrap">
+        <div className="flex-sm-wrap p-5">
+          <h3 className="p-2">Pastel and Oil</h3>
+          <p className="p-2">
+            is simply dummy text of the printing and typesetting industry.
+          </p>
+          <Link to="/art" className="art-link p-2">
             View Art Collection
           </Link>
         </div>
-        <img src={bob} alt="bob painting" />
+        <img src={bob} alt="bob painting" className="flex-sm-wrap" />
       </div>
     </HomeNav>
   );
