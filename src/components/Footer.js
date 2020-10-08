@@ -41,5 +41,9 @@ const FooterWrapper = styled.nav`
   .text {
     padding-top: 2rem;
     text-align: center;
+    color: black;
+  }
+  .text a {
+    color: var(--beige);
   }
 `;
