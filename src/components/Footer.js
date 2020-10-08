@@ -21,13 +21,17 @@ export default function Footer() {
 }
 
 const FooterWrapper = styled.nav`
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 6rem;
-  text-align: center;
+  .footer {
+    position: relative;
+  }
+
   .footer-nav {
     color: var(--etonBlue);
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+    /* height: 6rem; */
+    text-align: center;
   }
   .footer-nav a {
     color: #d5bf86;
@@ -36,5 +40,6 @@ const FooterWrapper = styled.nav`
   }
   .text {
     padding-top: 2rem;
+    text-align: center;
   }
 `;

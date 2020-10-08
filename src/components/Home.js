@@ -26,6 +26,8 @@ export default function Home() {
 }
 
 const HomeNav = styled.nav`
+  margin: 2rem;
+  padding: 3rem;
   .content {
     color: var(--etonBlue);
   }
