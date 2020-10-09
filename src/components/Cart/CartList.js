@@ -6,7 +6,7 @@ export default function CartList({ value }) {
   //   console.log(value, cart);
 
   return (
-    <div className="container-fluid">
+    <div className="container">
       {cart.map(item => {
         return <CartItem key={item.id} item={item} value={value} />;
       })}
