@@ -1,6 +1,6 @@
 :root {
-  --mint: #8db1ab;
-  --celadon: #a0e8af;
+  --mint: #4a556d;
+  --celadon: #58a4b0;
   --etonBlue: #86baa1;
   --beige: #d5bf86;
   --yellow: #ffcf56;
@@ -16,11 +16,13 @@ body {
 .text-title {
   font-family: "Poppins", sans-serif;
   letter-spacing: 0.3rem;
+
   /* text-transform: uppercase; */
 }
 
 .text-blue {
-  color: var(--celadon);
+  color: var(--etonBlue);
+  /* color: var(--charcol); */
 }
 
 .text-bright {
