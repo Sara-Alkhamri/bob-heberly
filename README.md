@@ -1,4 +1,16 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Robert Heberly
+
+Client project
+
+# Description
+
+e-Commerce website created with Reactjs, Bootstrap, Styled Components, Paypal Checkout enabled, deployed via Vercel.
+
+# Deployed URL
+
+https://bob-heberly.vercel.app/
+
+his project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
