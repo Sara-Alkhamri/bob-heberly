@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import bob from "../bob.png";
+import bob from "../bob2.png";
 import styled from "styled-components";
 import { ButtonContainer } from "./Button";
 

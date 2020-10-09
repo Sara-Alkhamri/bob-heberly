@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { ProductConsumer } from "../context";
 import { Link } from "react-router-dom";
-import bobLogo from "../bob.png";
+import bobLogo from "../bob2.png";
 
 import { ButtonContainer } from "./Button";
 

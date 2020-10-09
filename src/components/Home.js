@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import bob from "../bob-painting.png";
-import bobLogo from "../bob.png";
+import bobLogo from "../bob2.png";
 import styled from "styled-components";
 
 export default function Home() {
