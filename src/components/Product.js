@@ -85,9 +85,9 @@ const ProductWrapper = styled.div`
     bottom: 0;
     right: 0;
     padding: 0.7rem 0.7rem;
-    background: var(--lightBlue);
+    background: transparent;
     border: none;
-    color: var(--mainWhite);
+    color: var(--etonBlue);
     font-size: 1.4rem;
     border-radius: 0.5rem;
     transform: translate(100%, 100%, 100%, 100%);
@@ -97,7 +97,7 @@ const ProductWrapper = styled.div`
     transition: all 1s linear;
   }
   .cart-btn:hover {
-    color: var(--yellow);
+    color: var(--beige);
     cursor: pointer;
   }
   .img-container {
