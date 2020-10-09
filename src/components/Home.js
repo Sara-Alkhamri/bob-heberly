@@ -11,16 +11,16 @@ export default function Home() {
         <img src={bobLogo} alt="store" />
       </div>
       <div className="content d-flex justify-content-around align-items-center flex-wrap">
-        <div className="flex-sm-wrap p-5">
-          <h3 className="p-2">Pastel and Oil</h3>
-          <p className="p-2">
+        <div className="flex-sm-wrap p-5 ">
+          {/* <h3 className="p-2">Pastel and Oil Collection</h3> */}
+          {/* <p className="p-2">
             is simply dummy text of the printing and typesetting industry.
-          </p>
+          </p> */}
           <Link to="/art" className="art-link p-2">
-            View Art Collection
+            Pastel and Oil Collection
           </Link>
         </div>
-        <img src={bob} alt="bob painting" className="flex-sm-wrap" />
+        <img src={bob} alt="bob painting" className="bob-main flex-sm-wrap" />
       </div>
     </HomeNav>
   );
@@ -32,5 +32,9 @@ const HomeNav = styled.nav`
     font-size: 1.5rem;
     text-transform: capitalize;
     margin-left: 0;
+  }
+  .bob-main {
+    /* opacity: 0.7; */
+    border-radius: 0.5rem;
   }
 `;
