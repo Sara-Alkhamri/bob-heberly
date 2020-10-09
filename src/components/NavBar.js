@@ -15,7 +15,7 @@ export default class NavBar extends Component {
         <ul className="navbar-nav align-items-center">
           <li className="nav-item ml-5">
             <Link to="/art" className="nav-link">
-              Art Collection
+              Pastel and Oil Collection
             </Link>
           </li>
         </ul>
