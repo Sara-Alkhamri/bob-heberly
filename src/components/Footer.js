@@ -7,7 +7,7 @@ export default function Footer() {
     <FooterWrapper className="footer">
       <div className="footer-nav">
         <Link to="/">Home</Link>
-        <Link to="/art">Art</Link>
+        <Link to="/art">Collection</Link>
         <Link to="/cart">Cart</Link>
       </div>
       <div className="text">
