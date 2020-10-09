@@ -34,6 +34,6 @@ const HomeNav = styled.nav`
     margin-left: 0;
   }
   .bob-main {
-    border-radius: 0.5rem;
+    border-radius: 8rem 0rem 0 8rem;
   }
 `;
