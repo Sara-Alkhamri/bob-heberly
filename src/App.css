@@ -7,8 +7,9 @@
   --white: #ebe8e4;
 }
 
+html,
 body {
-  height: 100%;
+  max-width: 100%;
   font-family: "Oswald", sans-serif !important;
   /* background: var(--beige) !important; */
   color: var(--mint) !important;

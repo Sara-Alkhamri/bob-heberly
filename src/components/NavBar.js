@@ -7,7 +7,7 @@ import { ButtonContainer } from "./Button";
 export default class NavBar extends Component {
   render() {
     return (
-      <NavWrapper className="navbar navbar-expand-sm navbar-dark px-sm-5">
+      <NavWrapper className="navbar navbar-expand-sm px-sm-5">
         {/*“Created my free logo at LogoMakr.com” */}
         <Link to="/">
           <img src={bob} alt="store" className="navbar-brand" />
@@ -15,7 +15,7 @@ export default class NavBar extends Component {
         <ul className="navbar-nav align-items-center">
           <li className="nav-item ml-5">
             <Link to="/art" className="nav-link">
-              Pastel and Oil Collection
+              Collection
             </Link>
           </li>
         </ul>
