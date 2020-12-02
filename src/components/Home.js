@@ -19,6 +19,9 @@ export default function Home() {
           <Link to="/art" className="art-link p-2">
             Pastel and Oil Collection
           </Link>
+          <Link to="/art" className="art-link p-2">
+            Commissioned Pet Portraits
+          </Link>
         </div>
         <img src={bob} alt="bob painting" className="bob-main flex-sm-wrap " />
       </div>
