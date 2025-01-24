@@ -1,0 +1,78 @@
+// Variables
+$gap: 16px; // Gap between items
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px; // Medium screen breakpoint
+$breakpoint-lg: 1024px; // Large screen breakpoint
+
+// Gallery Section Styling
+.gallery-section {
+  margin-bottom: 32px;
+  display: flex;
+
+  @media (max-width: $breakpoint-sm) {
+    flex-direction: column;
+  }
+
+  .gallery-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin: 2rem 3rem;
+    white-space: nowrap;
+  }
+
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap; // Allows items to wrap into rows
+    gap: $gap; // Space between items
+    margin-top: 2rem;
+
+    .gallery-item {
+      flex: 1 1 calc(100% - #{$gap}); // Default to full width
+      max-width: calc(100% - #{$gap}); // Default max width
+      margin-bottom: $gap;
+      text-align: center;
+
+      .gallery-image {
+        width: 600px;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+
+        &:hover {
+          transform: scale(1.05); // Slight zoom effect
+        }
+        @media (max-width: $breakpoint-md) {
+          width: 300px;
+        } 
+      }
+
+      .gallery-image-title {
+        margin-top: 2rem;
+        font-size: 1rem;
+        color: #555;
+      }
+    }
+  } 
+}
+
+// Responsive Adjustments
+@media (min-width: $breakpoint-md) {
+  .gallery-container {
+    .gallery-item {
+      flex: 1 1 calc(50% - #{$gap}); // Two columns on medium screens
+      max-width: calc(50% - #{$gap});
+    }
+  }
+}
+
+@media (min-width: $breakpoint-lg) {
+  .gallery-container {
+    .gallery-item {
+      flex: 1 1 calc(33.333% - #{$gap}); // Three columns on large screens
+      max-width: calc(33.333% - #{$gap});
+    }
+  }
+}

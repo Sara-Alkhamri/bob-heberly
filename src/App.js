@@ -1,29 +1,24 @@
-import React from "react";
-import { Switch, Route } from "react-router-dom";
-import Home from "./components/Home";
-import "./App.css";
-import "bootstrap/dist/css/bootstrap.css";
-import ProductList from "./components/ProductList";
-import Details from "./components/Details";
-import Modal from "./components/Modal";
-import Cart from "./components/Cart/Cart";
-import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Gallery from './pages/Gallery';
+import PetPortraits from './pages/PetPortraits';
+import HomePage from './pages/HomePage'
+import About from './pages/About'
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <React.Fragment>
-      {/* <NavBar /> */}
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/art" component={ProductList} />
-        <Route exact path="/art/portraites" component={ProductList} />
-        <Route exact path="/details" component={Details} />
-        <Route exact path="/cart" component={Cart} />
-      </Switch>
-      <Modal />
-      <Footer />
-    </React.Fragment>
+    <Router>
+      <div className="App" >
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/pets" element={<PetPortraits />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+        <Footer /> {/* Add Footer here */}
+      </div>
+    </Router>
   );
 }
 

@@ -1,0 +1,67 @@
+$breakpoint-md: 768px; // Medium screen breakpoint
+$breakpoint-lg: 1024px; // Large screen breakpoint
+$link-hover-color: #31708f;
+
+.homepage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  // height: 100vh; /* Ensures it fills the viewport height */
+
+  .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12rem;
+    padding: 40px; /* Adjust padding as per the design */
+
+    .left-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: 20px;
+
+      h1, h2, a {
+        font-size: 2.5rem; /* Adjust as needed */
+        color: #555;
+        margin-bottom: 10px;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+        color: $link-hover-color;
+      }
+    }
+
+    .right-section {
+      // display: flex;
+      // justify-content: center;
+      // align-items: center;
+
+      .art-image {
+        max-width: 100%;
+        width: 600px; /* Consistent sizing */
+        height: 450px;
+        object-fit: contain; /* Crops without distortion */
+        border-radius: 8px;
+        // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+    }
+    @media (max-width: $breakpoint-md) { 
+      flex-direction: column;
+      gap: 2rem;
+
+      .left-section {
+        text-align: center;
+      }
+      .right-section {
+        .art-image {
+          width: auto;
+          height: auto;
+        }
+      }
+    }
+  }
+}

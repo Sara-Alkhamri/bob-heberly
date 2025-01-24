@@ -1,30 +1,40 @@
-:root {
-  --mint: #4a556d;
-  --celadon: #58a4b0;
-  --etonBlue: #86baa1;
-  --beige: #d5bf86;
-  --yellow: #ffcf56;
-  --white: #ebe8e4;
+.App {
+  text-align: center;
+  width: 100%;
+  /* overflow-y: hidden; */
 }
 
-html,
-body {
-  overflow-x: hidden;
-  font-family: "Oswald", sans-serif !important;
-  /* background: var(--beige) !important; */
-  color: var(--mint) !important;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-.text-title {
-  font-family: "Poppins", sans-serif;
-  letter-spacing: 0.3rem;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
-.text-blue {
-  color: var(--etonBlue);
-  /* color: var(--charcol); */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-.text-bright {
-  color: var(--etonBlue);
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
