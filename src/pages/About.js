@@ -15,7 +15,7 @@ function About() {
                         Inspired by the rich cultural landscape of his hometown, Robert's work captures the essence of everyday life with a focus on light, texture, and emotion.
                         His talent for bringing scenes and portraits to life has earned him recognition in local and national art communities. Whether through his vivid landscapes,
                         intricate still lifes, or heartwarming commissioned pet portraits, Robert’s art reflects his deep connection to his roots and his commitment to storytelling
-                        through creativity.
+                        through creativity. 
                 </p>
                     <img src={desoto_vacation} alt="Baby Bob" className="about-image" />
                 </section>
