@@ -21,6 +21,8 @@ const pastelImages = [
     { src: './images/backyard.jpg', title: 'Backyard' },
     { src: './images/pool.jpg', title: 'Pool' },
     { src: './images/red-chair.jpg', title: 'Red Chair' },
+    { src: './images/fox.jpg', title: 'Red Chair' },
+    { src: './images/super-mercado.jpg', title: 'Red Chair' },
     // Add more pastel images
 ];
 
