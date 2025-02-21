@@ -13,7 +13,7 @@ const pastelImages = [
     { src: './images/patio-bedroom.jpg', title: 'Patio Bedroom' },
     { src: './images/yard-chair.jpg', title: 'Yard Chair' },
     { src: './images/litttle_pool.jpg', title: 'Little Pool' },
-    { src: './images/rome_market.jpg', title: 'Room Market' },
+    { src: './images/rome_market.jpg', title: 'Rome Market' },
     { src: './images/lounge_chairs.jpeg', title: 'Lounge Chairs' },
     { src: './images/trailer_court_master.jpg', title: 'Trailer Court' },
     { src: './images/chair.jpg', title: 'Chair' },
@@ -23,6 +23,8 @@ const pastelImages = [
     { src: './images/red-chair.jpg', title: 'Red Chair' },
     { src: './images/fox.jpg', title: 'Fox' },
     { src: './images/super-mercado.jpg', title: 'Super Mercado' },
+    { src: './images/CanyonMail.jpg', title: 'Canyon Mail' },
+    { src: './images/Beach_House.jpg', title: 'Beach House' },
     // Add more pastel images
 ];
 
