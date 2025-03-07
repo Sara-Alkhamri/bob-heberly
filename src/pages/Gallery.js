@@ -25,6 +25,7 @@ const pastelImages = [
     { src: './images/super-mercado.jpg', title: 'Super Mercado' },
     { src: './images/CanyonMail.jpg', title: 'Canyon Mail' },
     { src: './images/Beach_House.jpg', title: 'Beach House' },
+    { src: './images/hibiscus.png', title: 'Hibiscus' },
     // Add more pastel images
 ];
 
