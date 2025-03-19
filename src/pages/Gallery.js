@@ -15,6 +15,7 @@ const pastelImages = [
     { src: './images/litttle_pool.jpg', title: 'Little Pool' },
     { src: './images/rome_market.jpg', title: 'Rome Market' },
     { src: './images/lounge_chairs.jpeg', title: 'Lounge Chairs' },
+    { src: './images/lounge_chairs_2.jpeg', title: 'Lounge Chairs' },
     { src: './images/trailer_court_master.jpg', title: 'Trailer Court' },
     { src: './images/chair.jpg', title: 'Chair' },
     { src: './images/red-banana.jpg', title: 'Red Banana' },
